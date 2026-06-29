@@ -82,8 +82,16 @@
                 </div>
             </div>
 
+            
         </div>
     </section>
+    <form id="meu-formulario" action="https://formspree.io/f/SUA_ID_AQUI" method="POST">
+<input type="text" name="nome" placeholder="Seu Nome" required>
+<input type="email" name="email" placeholder="Seu E-mail" required>
+<textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+<button type="submit" id="btn-enviar">Enviar</button>
+<p id="status-mensagem"></p>
+</form>
 
     <footer id="contato" class="footer-section">
         <h2>Vamos conversar?</h2>
@@ -96,6 +104,6 @@
         </div>
         <p class="copyright">&copy; 2026 Stuart Dev. Todos os direitos reservados.</p>
     </footer>
-
+<script src="main.js"></script>
 </body>
 </html>
